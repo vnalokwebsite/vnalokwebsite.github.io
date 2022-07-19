@@ -1,18 +1,11 @@
-class Header extends HTMLElement {
-  constructor() {
-    super();
-  }
-
-  connectedCallback() {
-    this.innerHTML = `
-    <div class="rowm">
-    <h1 style="color: white; font-weight: bolder;">Fiscal Federalism and Decentralisation in India</h1>
+<div class="rowm">
+    <h1>Local Governments in India</h1>
   </div>
   <section id="title">
     <div class="container-fluid">
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="https://www.iipa.org.in/cms/public/management/13">V N Alok</a>
+        <a class="navbar-brand" href="https://www.iipa.org.in/cms/public/management/13">V.N. Alok</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -26,19 +19,19 @@ class Header extends HTMLElement {
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">
-                  About Me
+                  History
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="Personal.html">Personal Information</a>
-                  <a class="dropdown-item" href="areas.html">Areas of Special Interest</a>
-                  <a class="dropdown-item" href="employment.html">Current and Previous Employments</a>
-                  <a class="dropdown-item" href="education.html">Education</a>
-                  <a class="dropdown-item" href="recentpublications.html">Recent Publications</a>
-                  <a class="dropdown-item" href="expert.html">Expert Services</a>
-                  
-                  <a class="dropdown-item" href="workshop.html">Workshop/Training</a>
-                  <a class="dropdown-item" href="researchsupervision.html">Research Supervision</a>
-                  <a class="dropdown-item" href="administration.html">Admininstration and Examination</a>
+                  <a class="dropdown-item" href="vnalokwebsite.github.io/resume/Personal.html">Personal Information</a>
+                  <a class="dropdown-item" href="vnalokwebsite.github.io/resume/areas.html">Areas of Special Interest</a>
+                  <a class="dropdown-item" href="vnalokwebsite.github.io/resume/employment.html">Current and Previous Employments</a>
+                  <a class="dropdown-item" href="vnalokwebsite.github.io/education.html">Education</a>
+                  <a class="dropdown-item" href="vnalokwebsite.github.io/resume/recentpublications.html">Recent Publications</a>
+                  <a class="dropdown-item" href="vnalokwebsite.github.io/resume/expert.html">Expert Services</a>
+                  <a class="dropdown-item" href="vnalokwebsite.github.io/resume/research.html">Research Publications</a>
+                  <a class="dropdown-item" href="vnalokwebsite.github.io/resume/workshop.html">Workshop/Training</a>
+                  <a class="dropdown-item" href="vnalokwebsite.github.io/resume/researchsupervision.html">Research Supervision</a>
+                  <a class="dropdown-item" href="vnalokwebsite.github.io/resume/administration.html">Admininstration and Examination</a>
                 </div>
             </li>
         
@@ -121,8 +114,3 @@ class Header extends HTMLElement {
       </nav>
     </div>
   </section>
-      `;
-  }
-}
-
-customElements.define('header-component', Header);
