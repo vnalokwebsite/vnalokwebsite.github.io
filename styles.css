@@ -60,8 +60,9 @@ p{
   color: #ff4c68;
 }
 .container-fluid {
-  padding: 3% 4% 3%;
+  padding: 3% 4% 3% 2.5%;
   background-color:#0A2131;
+
 }
 
 /* Navigation Bar */
@@ -72,19 +73,23 @@ p{
   font-family: Ubuntu;
   font-weight: bold;
   font-size: 1.5rem;
+
+
+
 }
 .nav-item {
-  padding: 0 10px;
+  padding: 0px 10px 10px 10px;
 }
 .nav-link {
   font-size: 1.2rem;
   font-family: "Poppins";
   font-weight: bold;
+
 }
 
 /* Download buttons */
 .download-button {
-  margin: 5% 3% 5% 0;
+  margin: 5% 3% 5% 3%;
 }
 
 /* iphone image */
@@ -238,4 +243,8 @@ h1.main_text_ancient{
 }
 .media_margin {
   margin-right: 15px;
+}
+#employtext {
+  color: white;
+  line-height: 28px;
 }

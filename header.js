@@ -6,7 +6,7 @@ class Header extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <div class="rowm">
-    <h1 style="color: white; font-weight: bolder;">Fiscal Federalism and Decentralisation in India</h1>
+    <h1 style="text-transform:uppercase;color: white; font-weight: bolder;">Fiscal Federalism and Decentralisation in India</h1>
   </div>
   <section id="title">
     <div class="container-fluid">
@@ -22,7 +22,7 @@ class Header extends HTMLElement {
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
             </li>
-            
+
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">
@@ -35,13 +35,13 @@ class Header extends HTMLElement {
                   <a class="dropdown-item" href="education.html">Education</a>
                   <a class="dropdown-item" href="recentpublications.html">Recent Publications</a>
                   <a class="dropdown-item" href="expert.html">Expert Services</a>
-                  
+
                   <a class="dropdown-item" href="workshop.html">Workshop/Training</a>
                   <a class="dropdown-item" href="researchsupervision.html">Research Supervision</a>
-                  <a class="dropdown-item" href="administration.html">Admininstration and Examination</a>
+                  <a class="dropdown-item" href="administration.html">Administration and Examination</a>
                 </div>
             </li>
-        
+
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
@@ -49,8 +49,6 @@ class Header extends HTMLElement {
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item disabled" id="disabledl">Panchayat</a>
-                <div class="dropdown-divider">
-                </div>
                 <a class="dropdown-item" href="Ancient_history.html">Ancient</a>
                 <a class="dropdown-item" href="Medieval_history.html">Medieval</a>
                 <a class="dropdown-item" href="Modern_history.html">Modern</a>
